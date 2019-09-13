@@ -5,12 +5,12 @@
 using namespace std;
 
 #define LISTA
-
+/*
 string get_expression(Polynomial& p) {
 	stringstream ss;
 	ss << p;
 	return ss.str();
-}
+}*/
 
 TEST_CASE("Polynomial") {
 	SECTION("Create a polynomial from a list or by adding each term individual") {
